@@ -1,14 +1,16 @@
 import React from "react";
 import "./Header.css";
+import SearchIcon from '@mui/icons-material/Search';
+import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 
 function Header() {
     return(
         <div className="header">
             <img src="http://pngimg.com/uploads/amazon/amazon_PNG11.png" className="header__logo" alt="amazon logo"/>
-        
+
         <div className="header__search">
-            <input type="text" className="header__searchIn" placeholder="Search"/>
-            {/* Logo */}
+            <input type="text" className="header__searchIn" placeholder="Search Amazon"/>
+            <SearchIcon className="header__searchIcon" />
         </div>
 
         <div className="header__items">
@@ -28,6 +30,11 @@ function Header() {
                 <span className="second__line">Prime In</span>
             </div>
 
+        </div>
+
+        <div className="header__basket">
+            <ShoppingCartIcon/>
+            <span className="second__line basket__count">0</span>
         </div>
 
         </div>
