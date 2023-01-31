@@ -7,6 +7,7 @@ function Header() {
     return(
         <div className="header">
             <img src="http://pngimg.com/uploads/amazon/amazon_PNG11.png" className="header__logo" alt="amazon logo"/>
+            <span className="header__in">.in</span>
 
         <div className="header__search">
             <input type="text" className="header__searchIn" placeholder="Search Amazon"/>
