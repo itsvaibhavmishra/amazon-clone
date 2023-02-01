@@ -10,7 +10,7 @@ function Header() {
             <span className="header__in">.in</span>
 
         <div className="header__search">
-            <input type="text" className="header__searchIn" placeholder="Search Amazon"/>
+            <input type="text" className="header__searchIn" placeholder="Search Amazon.in"/>
             <SearchIcon className="header__searchIcon" />
         </div>
 
@@ -23,12 +23,12 @@ function Header() {
            
             <div className="item__option">
                 <span className="first__line">Returns</span>
-                <span className="second__line">& Orders In</span>
+                <span className="second__line">& Orders</span>
             </div>
             
             <div className="item__option">
                 <span className="first__line">Your</span>
-                <span className="second__line">Prime In</span>
+                <span className="second__line">Prime</span>
             </div>
 
         </div>

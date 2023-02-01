@@ -1,0 +1,8 @@
+@font-face {
+    font-family: "Amazon Ember";
+    src: url(./fonts/AmazonEmber_Rg.ttf);
+}
+
+*{
+    font-family: "Amazon Ember",Arial,sans-serif;
+}

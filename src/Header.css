@@ -9,13 +9,14 @@
 }
 
 .header__logo{
-    width: 100px;
+    width: 98px;
     margin: 0 20px;
-    margin-top: 18px;
+    margin-top: 12px;
     object-fit: contain;
 }
 
 .header__in{
+    font-size: small;
     position: fixed;
     left: 120px;
     color: white;
@@ -63,12 +64,13 @@
 }
 
 .first__line{
-    font-size: 11px;
+    font-size: 12px;
 }
 
 .second__line{
-    font-size: 15px;
-    font-weight: bold;
+    margin-top: -1px;
+    font-size: 14px;
+    font-weight: 800;
 }
 
 .header__basket{
