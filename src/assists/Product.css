@@ -13,12 +13,15 @@
 }
 
 .product__info{
-    height: 70px;
     margin-bottom: 15px;
 }
 
 .product__price{
     margin-top: 5px;
+}
+
+.ratings{
+    display: flex;
 }
 
 .product img{
@@ -44,5 +47,4 @@ button{
     cursor: pointer;
     text-align: center;
     vertical-align: middle;
-
 }
