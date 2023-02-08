@@ -17,6 +17,7 @@ function Product({info, price, rating, image}) {
                 {Array(rating)
                 .fill()
                 .map((_, i) => (<StarIcon className="star__icon"/> ))}
+                
                     {/* <StarBorderIcon className="star__icon"/> */}
                 </div>
             </div>
