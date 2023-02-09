@@ -14,7 +14,6 @@ function Cart() {
             </div>
             
             <div className="cart__rig">
-                <h3>Order Summary</h3>
                 <Subtotal />
             </div>
         </div>

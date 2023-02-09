@@ -11,7 +11,7 @@ function Product({info, price, rating, image}) {
                 <p>{info}</p>
                 <p className="product__price">
                     <small>₹</small>
-                    <strong>{price}</strong>
+                    <strong>{price.toLocaleString()}</strong>
                 </p>
                 <div className="ratings">
                 {/* for number of stars to be shown     */}
