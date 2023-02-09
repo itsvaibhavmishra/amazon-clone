@@ -3,19 +3,22 @@ import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import './App.css';
 import Header from "./Header";
 import Home from "./Home";
+import Cart from './assists/Cart';
 
 function App() {
   return (
+    
     <Router>
       <div className="App">
+      <Header/>
       <Routes>
-        {/* when inside of '/' show header and home */}
+        {/* when inside of '/' routes to home */}
         <Route path='/' element={
-          <> <Header/> <Home/></>
+          <Home/>
         }/>
 
-        <Route path='/checkout' element={
-          <> <Header/> Hello This is Checkout Page <Home/></>
+        <Route path='/cart' element={
+          <Cart/>
         }/>
 
       </Routes>
