@@ -14,11 +14,14 @@ function Product({info, price, rating, image}) {
                     <strong>{price}</strong>
                 </p>
                 <div className="ratings">
+                {/* for number of stars to be shown     */}
                 {Array(rating)
                 .fill()
                 .map((_, i) => (<StarIcon className="star__icon"/> ))}
-                
-                    {/* <StarBorderIcon className="star__icon"/> */}
+                {/* for empty stars to be shown */}
+                {Array(5-rating)
+                .fill()
+                .map((_, i) => (<StarBorderIcon className="star__icon"/> ))}
                 </div>
             </div>
 

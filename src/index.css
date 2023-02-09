@@ -1,6 +1,7 @@
 *{
   margin: 0;
-}
+  padding: 0;
+ }
 body {
   margin: 0;
   font-family: 'Amazon Ember', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',

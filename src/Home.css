@@ -8,6 +8,7 @@
 
 .home__image{
     width: 100%;
+    height: auto;
     z-index: -1;
     margin-bottom: -350px;
     mask-image: linear-gradient(to bottom, rgb(0, 0, 0, 1) 50%, rgb(0, 0, 0, 0));
@@ -17,6 +18,11 @@
     display: flex;
     z-index: 1;
     margin-left: 5px;
-    margin-right: 5px;
+    margin-right: 5px;   
+}
 
+@media (max-width: 1000px) {
+    .home__image{
+        margin-bottom: -100px;
+    }
 }
