@@ -36,7 +36,7 @@ function Subtotal() {
                         This order is a gift
                     </small>
                     <p>
-                        <strong>Order total: <span className="cost">₹{total.toLocaleString()}</span></strong>
+                        <strong>Order total: <span className="cost">₹{total.toLocaleString('en-IN')}</span></strong>
                     </p>
                 </>
             )}

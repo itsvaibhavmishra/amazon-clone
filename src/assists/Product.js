@@ -29,7 +29,7 @@ function Product({id, info, price, rating, image}) {
                 <p>{info}</p>
                 <p className="product__price">
                     <small>₹</small>
-                    <strong>{price.toLocaleString()}</strong>
+                    <strong>{price.toLocaleString('en-IN')}</strong>
                 </p>
                 <div className="ratings">
                 {/* for number of stars to be shown     */}
