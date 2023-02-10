@@ -1,8 +1,12 @@
 import React from "react";
 import "./Subtotal.css"
 import CurrencyFormat from "react-currency-format";
+import { useStateValue } from "./StateProvider";
 
 function Subtotal() {
+
+    const [{cart}] = useStateValue();
+
     return(
         <div className="subtotal">
             <button>Place your order</button>
@@ -17,7 +21,7 @@ function Subtotal() {
                 <>
                     <h3>Order Summary</h3>
                     <p>
-                        Quantity (0 items):
+                        Quantity ({cart.length} items):
                     </p>
 
                     <p>
@@ -29,7 +33,7 @@ function Subtotal() {
                         This order is a gift
                     </small>
                     <p>
-                        <strong>Order total: 0</strong>
+                        <strong>Order total: {value}</strong>
                     </p>
                 </>
             )}
