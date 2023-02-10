@@ -13,7 +13,7 @@ function Cart() {
                 </h3>
             </div>
             
-            <div className="cart__rig">
+            <div className="cart__right">
                 <Subtotal />
             </div>
         </div>
