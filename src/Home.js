@@ -12,7 +12,7 @@ function Home() {
             
                 <div className="home__row">
                     <Product 
-                    id="54916"
+                    id="54915"
                     info= "iQOO Z6 Lite 5G by vivo (Stellar Green, 4GB RAM, 64GB Storage) | World's First Snapdragon 4 Gen 1 | 120Hz Refresh Rate | 5000mAh Battery"
                     price={13499}
                     rating={3}

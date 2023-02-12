@@ -2,8 +2,18 @@ import React from "react";
 import "./CartProduct.css";
 import StarIcon from '@mui/icons-material/Star';
 import StarBorderIcon from '@mui/icons-material/StarBorder';
+import { useStateValue } from "./StateProvider";
 
 function CartProduct({id, info, price, rating, image}) {
+
+    const [{cart}, dispatch] = useStateValue();
+    const removeItem = () => {
+        dispatch({
+            type: 'Remove_From_Cart',
+            id: id,
+        })
+    }
+
     return(
         <div className="cartProduct">
             <img src={image} alt="product img" className="product__image" />
@@ -21,7 +31,7 @@ function CartProduct({id, info, price, rating, image}) {
                     .fill()
                     .map(() => (<StarBorderIcon className="star__icon"/> ))}
                 </div>
-                <button>Remove from Cart</button>
+                <button onClick={removeItem}>Remove from Cart</button>
             </div>
         </div>
     );

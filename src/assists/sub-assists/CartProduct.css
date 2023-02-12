@@ -14,6 +14,10 @@
     padding-left: 20px;
 }
 
+.product__info{
+    font-size: 17px;
+}
+
 .product__details button{
     padding: 5px 20px;
     margin-top: 10px;
@@ -22,8 +26,4 @@
     border-radius: 20px;
     box-shadow: 0 2px 5px 0 rgb(213 217 217 / 50%);
     cursor: pointer;
-}
-
-.product__info{
-    font-size: 17px;
 }

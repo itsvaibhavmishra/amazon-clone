@@ -13,7 +13,8 @@
 .subtotal button{
     padding: 5px;
     margin-top: 10px;
-    width: 100%;
+    margin: 0 auto;
+    width: 300px;
     background-color: #FCD200;
     border: 1px solid #FFD814;
     border-radius: 5px;
