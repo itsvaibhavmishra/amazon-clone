@@ -13,12 +13,12 @@ function Subtotal() {
     return(
         <div className="subtotal">
             <button>Place your order</button>
-            <p style={{fontSize:"small"}}>By placing your order, you agree to Amazon.in's</p>
-            <span className="tnc">
+            <p className="abtnc">By placing your order, you agree to Amazon.in's</p>
+            <p className="tnc">
                 <a href="https://www.amazon.in/gp/help/customer/display.html?nodeId=GX7NJQ4ZB8MHFRNJ" target={"_blank"} rel="noreferrer">privacy notice </a>
                 and
                 <a href="https://www.amazon.in/gp/help/customer/display.html?nodeId=GLSBYFE9MGKKQXXM" target={"_blank"} rel="noreferrer"> condition of use.</a>
-            </span>
+            </p>
             <CurrencyFormat
             renderText={(value) => (
                 <>

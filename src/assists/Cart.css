@@ -16,3 +16,11 @@
     padding: 10px;
     border-bottom: 1px solid lightgray;
 }
+
+.cart__right{
+    margin: 0 auto;
+    margin-left: 3%;
+    left: 2;
+    width: auto;
+    max-width: 92%;
+}
