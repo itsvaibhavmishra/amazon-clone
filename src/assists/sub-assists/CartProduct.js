@@ -10,7 +10,7 @@ function CartProduct({id, info, price, rating, image}) {
     const removeItem = () => {
         dispatch({
             type: 'Remove_From_Cart',
-            id: id,
+            id: id
         })
     }
 

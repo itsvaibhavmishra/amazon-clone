@@ -8,8 +8,6 @@ function Product({id, info, price, rating, image}) {
 
     const [{cart}, dispatch] = useStateValue();
 
-    console.log('this is the cart > ', cart);
-
     const addtoCart = () => {
         dispatch({
             type: 'Add_To_Cart',
