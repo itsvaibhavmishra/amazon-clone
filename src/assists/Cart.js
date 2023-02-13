@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Cart.css";
 import CartProduct from "./sub-assists/CartProduct";
 import { useStateValue } from "./sub-assists/StateProvider";
@@ -15,7 +15,7 @@ function Cart() {
                 
 
             <div className="cart__right">
-                <Subtotal />
+                { <Subtotal />}
             </div>
                 <h3 className="cart__title">
                     Review items and shipping
