@@ -11,7 +11,7 @@ function Login() {
                 <span className="login__in">.in</span>
             </Link>
 
-            <div className="container">
+            <div className="login__container">
                 <h1>Sign in</h1>
 
                 <form action="">
@@ -24,13 +24,15 @@ function Login() {
                     <button className="signin__button">Sign in</button>
                 </form>
 
-                <p className="abtnc">By continuing, you agree to Amazon's <a className="tnc" href="https://www.amazon.in/gp/help/customer/display.html/ref=ap_signin_notification_condition_of_use?ie=UTF8&nodeId=200545940">Condition of Use </a>
+                <p className="abtncs">By continuing, you agree to Amazon's <a className="tncs" href="https://www.amazon.in/gp/help/customer/display.html/ref=ap_signin_notification_condition_of_use?ie=UTF8&nodeId=200545940">Condition of Use </a>
                 and 
-                <a className="tnc" href="https://www.amazon.in/gp/help/customer/display.html/ref=ap_signin_notification_privacy_notice?ie=UTF8&nodeId=200534380"> Privacy Notice</a>.
+                <a className="tncs" href="https://www.amazon.in/gp/help/customer/display.html/ref=ap_signin_notification_privacy_notice?ie=UTF8&nodeId=200534380"> Privacy Notice</a>.
                 </p>
-                
-                <button className="signup__button">Create your Amazon account</button>
             </div>
+                <h5 className="hrL">
+                    <span>New to Amazon?</span>
+                </h5>
+                <button className="signup__button">Create your Amazon account</button>
         </div>
     )
 }

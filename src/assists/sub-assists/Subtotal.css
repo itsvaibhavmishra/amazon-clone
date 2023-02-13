@@ -16,10 +16,19 @@
     margin: 0 auto;
     width: 300px;
     background-color: #FCD200;
-    border: 1px solid #FFD814;
+    border: 1px solid lightgray;
     border-radius: 5px;
     box-shadow: 0 2px 5px 0 rgb(213 217 217 / 50%);
     cursor: pointer;
+}
+
+.subtotal button:hover{
+    background-color: #fddd39;
+}
+
+.subtotal button:focus{
+    border-color: #e77600;
+    box-shadow: 0 0 3px 2px rgba(228,121,17,.5);
 }
 
 .abtnc{
