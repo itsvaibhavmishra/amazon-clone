@@ -1,0 +1,142 @@
+.register{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+.register__logo{
+    margin-top: 15px;
+    margin-bottom: 20px;
+    object-fit: contain;
+    width: 100px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 5px;
+}
+
+.register__in{
+    font-size: small;
+    position: fixed;
+    text-align: center;
+    color: black;
+    object-fit: contain;
+    top: 20px;
+}
+
+.register__container{
+    width: 300px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    padding: 20px;
+}
+
+.register__container h1{
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+.register__container form h5{
+    margin-bottom: 2px;
+}
+
+.register__container form input{
+    background-color: #fff;
+    height: 25px;
+    padding: 3px 7px;
+    margin-bottom: 8px;
+    width: 95%;
+    line-height: normal;
+    border: 1px solid #a6a6a6;
+    border-top-color: #949494;
+    border-radius: 3px;
+    box-shadow: 0 1px 0 rgb(255 255 255 / 50%), 0 1px 0 rgb(0 0 0 / 7%) inset;
+    outline: 0;
+}
+
+.register__container form input:focus{
+    background-color: transparent;
+    border: 1px solid;
+    border-color: #e77600;
+    box-shadow: 0 0 3px 2px rgba(228,121,17,.5);
+    outline: 0;
+}
+
+.register__container form button{
+    padding: 5px 20px;
+    width: 100%;
+    margin-top: 10px;
+    background-color: #FCD200;
+    border: 1px solid lightgray;
+    border-radius: 2px;
+    box-shadow: 0 2px 5px 0 rgb(213 217 217 / 50%);
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.register__container form button:hover{
+    background-color: #fddd39;
+}
+
+.register__container form button:focus{
+    border-color: #e77600;
+    box-shadow: 0 0 3px 2px rgba(228,121,17,.5);
+}
+
+.register__abtncs{
+    font-size: small;
+    margin-bottom: 20px;
+}
+
+.register__tncs{
+    text-decoration: none;
+    color: #05a;
+}
+
+.register__tncs:hover{
+    color: #e47911;
+}
+
+.register .register__hrL{
+    /* color: #767676; */
+    padding-top: 20px;
+    width: 340px; 
+    text-align: center; 
+    border-bottom: 1px solid lightgray; 
+    line-height: 0.1em;
+    position: relative;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 400;
+    margin: 10px 0 20px; 
+    color: #767676;
+}
+
+.register .register__hrL span{
+    background:#fff; 
+    padding:0 10px; 
+}
+
+.signin__button{
+    background: linear-gradient(to start, #e7e9ec 50%, rgb(0, 0, 0, 0));
+    padding: 5px 115px;
+    border-radius: 3px;
+    border-color:#adb1b8 #a2a6ac #8d9096;
+    border-style: solid;
+    border-width: 1px;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none!important;
+    vertical-align: middle;
+}
+
+.signin__button:hover{
+    background-color: #e7e9ec;
+}

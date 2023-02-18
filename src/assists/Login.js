@@ -1,30 +1,26 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { auth } from "./firebase";
 import "./Login.css";
 
 
 function Login() {
 
+    const navigate = useNavigate();
+
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
-    
+
     const signIn = e => {
         e.preventDefault();
-        // firebase login system
-    }
-    
-    const signUp = e => {
-        e.preventDefault();
         
+        // firebase login system
         auth
-            .createUserWithEmailAndPassword(email, password)
-            .then((auth) => {
-                console.log(auth);  // Checks if SignUp was successful
+            .signInWithEmailAndPassword(email, password)
+            .then(auth => {
+                navigate('/');
             })
-
-            .catch(error => alert(error.message))
-        // firebase register system
+            .catch(error => alert(error.message));
     }
 
     return(
@@ -56,7 +52,9 @@ function Login() {
                 <h5 className="hrL">
                     <span>New to Amazon?</span>
                 </h5>
-                <button className="signup__button" onClick={signUp}>Create your Amazon account</button>
+                <Link to="/register">
+                    <button className="signup__button">Create your Amazon account</button>
+                </Link>
         </div>
     )
 }
