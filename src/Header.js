@@ -32,7 +32,7 @@ function Header() {
            
            <Link to={!user && '/login'} style={{ textDecoration: 'none' }}>
                 <div className="item__option" onClick={handleAuth}>
-                    <span className="first__line">Hello, </span>
+                    <span className="first__line">Hello, {user?(user?.email).split('@')[0]:'Guest'}</span>
                     <span className="second__line">{user?'Sign Out':'Sign In'}</span>
                 </div>
             </Link>
