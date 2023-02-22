@@ -20,7 +20,7 @@ function CartProduct({id, info, price, rating, image}) {
             <div className="product__details">
                 <p className="product__info">{info}</p>
                 <p className="product__price">
-                    <small>₹</small><strong>{price}</strong>
+                    <small>₹</small><strong>{price.toLocaleString('en-IN')}</strong>
                 </p>
                 <div className="product__rating">
                     {Array(rating)

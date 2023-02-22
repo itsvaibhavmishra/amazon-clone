@@ -2,12 +2,13 @@
     display: flex;
     margin-top: 20px;
     margin-bottom: 20px;
+    width: 90%;
 }
 
 .product__image{
     object-fit: contain;
-    width: 180px;
-    height: 180px;
+    width: 150px;
+    height: 150px;
 }
 
 .product__details{
@@ -15,7 +16,7 @@
 }
 
 .product__info{
-    font-size: 17px;
+    font-size: 15px;
 }
 
 .product__details button{

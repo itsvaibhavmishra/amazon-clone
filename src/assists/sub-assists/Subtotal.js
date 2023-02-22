@@ -9,7 +9,7 @@ function Subtotal() {
 
     const navigate = useNavigate();
 
-    const [{cart}] = useStateValue();
+    const [{cart}, dispatch] = useStateValue();
     const tax = (getCartTotal(cart) > 5000)?0: (getCartTotal(cart))*0.03;
     const total = (getCartTotal(cart)+tax);
 
