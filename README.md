@@ -1,19 +1,18 @@
 ### <div align="center">Amazon-Clone</div>  
   
+## Features
 
 - Build on React JS  
-  
 
-- User Authentication using Firebase  
-  
+- React Context API 
 
 - Responsive Design  
   
-
 - Cart Section  
-  
 
 - Checkout Section  
+
+- User Authentication using Firebase 
   
 
 <br/>  
@@ -23,6 +22,8 @@
 
 <a href="https://clone-7ad5f.web.app/">Firebase</a> |
 <a href="https://copy-amazon.netlify.app/">Netlify</a>
+
+
   
 
 <br/>  
@@ -42,6 +43,23 @@
 </div>  
 
 <br/>  
+
+## Commands
+
+```bash
+$ npm install --force
+```
+Installs all the required packages
+
+```bash
+$ npm start
+```
+Runs on localhost
+
+```bash
+$ npm run build
+```
+Create an optimized production build
 
 <div align="center">
 <img src="https://komarev.com/ghpvc/?username=itsvaibhavmishra&&style=flat-square" align="center" />
