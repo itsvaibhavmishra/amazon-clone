@@ -59,7 +59,7 @@ Runs on localhost
 ```bash
 $ npm run build
 ```
-Create an optimized production build
+Creates an optimized production build
 
 <div align="center">
 <img src="https://komarev.com/ghpvc/?username=itsvaibhavmishra&&style=flat-square" align="center" />
