@@ -1,0 +1,27 @@
+body{
+    background-color: white;
+}
+
+.pgNotFound {
+    display: flex;
+    justify-content: center;
+}
+
+.pgNotFound h1{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.Empty__Cart {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: scale(20);
+    color: rgb(228, 228, 228);
+    z-index: -1;
+}

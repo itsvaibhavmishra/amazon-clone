@@ -6,6 +6,7 @@ import Home from "./Home";
 import Cart from './assists/Cart';
 import Login from './assists/Login';
 import Register from './assists/Register';
+import Checkout from './assists/Checkout'
 import { auth } from './assists/firebase';
 import { useStateValue } from './assists/sub-assists/StateProvider';
 
@@ -58,6 +59,13 @@ function App() {
 
         <Route path='/register' element={
           <Register />
+        }/>
+
+        <Route path='/checkout' element={
+          <>
+            <Header/>
+            <Checkout />
+          </>
         }/>
 
       </Routes>
