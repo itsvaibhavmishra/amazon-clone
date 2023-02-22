@@ -124,7 +124,6 @@
 }
 
 .signup__button{
-    background: linear-gradient(to start, #e7e9ec 50%, rgb(0, 0, 0, 0));
     padding: 5px 84px;
     border-radius: 3px;
     border-color:#adb1b8 #a2a6ac #8d9096;
